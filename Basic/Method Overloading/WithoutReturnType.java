@@ -1,0 +1,47 @@
+class Operations{
+    void add(){
+        System.out.println(100+200);
+    }
+    void add1(int a, int b){
+        System.out.println(a+b);
+    }
+    void add2(int a, int b, int c){
+        System.out.println(a+b+c);
+    }
+    void add4(int a, float b, double c){
+        System.out.println(a + b + c);
+    }
+    void add(int a){
+        System.out.println("This is integer: "+a);
+    }
+    void add(float a){
+        System.out.println("This is float: "+a);
+    }
+    void add(double a){
+        System.out.println("This is double: "+a);
+    }
+}
+public class WithoutReturnType{
+    public static void main(String[] args) {
+    Operations func = new Operations();
+    System.out.println("NOTE: ");
+    System.out.println("1) Method Overloading defines that multiple methods can have the same name with different parameters within the same class.");
+    System.out.println("2) Method Overloading is also known as Compile-time polymorphism.");
+    System.out.println("3) Method overloading is also known as Static binding.");
+    System.out.println("4) Method Overloading is also known as Early binding.");
+    System.out.println("5) Method Overloading is used to increase the readability of the program.");
+    System.out.println("6) Method Overloading is used to perform different tasks with the same method name.");
+    System.out.println();
+
+    System.out.println("OUTPUT:");
+    
+    func.add();
+    func.add2(1,2,3);
+    func.add1(1,2);
+    func.add4(1,3.5f,3.4);
+    System.out.println("Method Overloading Example Completed");
+    func.add(10);
+    func.add(10.2f);
+    func.add(10.5);
+    }
+}
