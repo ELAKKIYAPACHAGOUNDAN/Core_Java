@@ -26,3 +26,21 @@ public class DataType {
 
     }
 }
+/*
+ * Data Types
+   ├── Primitive (simple, built-in)
+   │      ├── byte
+   │      ├── short
+   │      ├── int
+   │      ├── long
+   │      ├── float
+   │      ├── double
+   │      ├── char
+   │      └── boolean
+   │
+   └── Non-Primitive (reference types)
+          ├── String
+          ├── Arrays
+          ├── Classes & Objects
+          └── Interfaces
+ */
