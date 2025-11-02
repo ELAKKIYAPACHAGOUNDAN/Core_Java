@@ -4,18 +4,21 @@ class Pin{
 
     private int pinn;
     private int balance;
-
-    public void setData1(int x){
+    
+    //pinn
+    public void setData1(int x){ // setPin
         pinn = x;
     }
-    public int getData1(){
+    // return datatype may varry depends on user input
+    public int getData1(){ // getPin
         return pinn;
     }
 
-    public void setData2(int y){
+    //balance
+    public void setData2(int y){ //setPin(method name)
         balance = y;
     }
-    public int getData2(){
+    public int getData2(){ //getBalance (method name)
         return balance;
     }
 }
@@ -25,15 +28,17 @@ public class WithGetSet {
         Pin p = new Pin();
 
         //Direct access
-        System.out.println(p.getData1());
-        System.out.println(p.getData2());
+        System.out.println(p.getData1()); //null
+        System.out.println(p.getData2()); //null
         
         //Controlled access or Indirect access
+        //pinn
         p.setData1(5654);
-        System.out.println(p.getData1());
+        System.out.println(p.getData1()); //5654
 
+        //balance
         p.setData2(32_767);
-        System.out.println(p.getData2());
+        System.out.println(p.getData2()); //32767
     }    
 }
 

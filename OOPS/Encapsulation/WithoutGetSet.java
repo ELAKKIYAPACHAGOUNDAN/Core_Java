@@ -35,5 +35,4 @@ public class WithoutGetSet {
  *-> getter-> sysout
 
  *-> Increases flexibility (you can change implementation without breaking outside the class).
- *->
  */
