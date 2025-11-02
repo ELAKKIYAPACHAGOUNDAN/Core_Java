@@ -102,12 +102,6 @@ public class Fivefive_Pattern{
 		11 12 13 14 15 
 		16 17 18 19 20 
 		21 22 23 24 25 */
-
-		System.out.println();
-		System.out.println("hallow matix pattern");
-		
-		
-
 		
 		System.out.println();
 		System.out.println("addition of number in row alternatively");
@@ -402,7 +396,7 @@ public class Fivefive_Pattern{
 		}
 
 		System.out.println();
-		System.out.println("hallow square with diagonal");	
+		System.out.println("hallow square with matrix:");	
 		int count_one=1;
 		for(int row_1 = 1; row_1 <=5 ;row_1++){
 			for(int col_1 =1; col_1 <=5; col_1++){
