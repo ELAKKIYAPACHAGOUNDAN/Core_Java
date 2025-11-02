@@ -102,6 +102,12 @@ public class Fivefive_Pattern{
 		11 12 13 14 15 
 		16 17 18 19 20 
 		21 22 23 24 25 */
+
+		System.out.println();
+		System.out.println("hallow matix pattern");
+		
+		
+
 		
 		System.out.println();
 		System.out.println("addition of number in row alternatively");
@@ -378,16 +384,50 @@ public class Fivefive_Pattern{
 		int cou=1;
 		for(int x=1;x<=5;x++){
 			for(int y=1;y<=x;y++){
-				System.out.print(cou+" ");
+				if(cou>9){
+					System.out.print(cou+" ");
+				}
+				else{
+					System.out.print("0"+cou+" ");
+				}
 				cou++;
 			}
 			System.out.println();
 		/*number-1
-			1 
-			2 3 
-			4 5 6 
-			7 8 9 10 
+			01 
+			02 03 
+			04 05 06 
+			07 08 09 10 
 			11 12 13 14 15 */
 		}
+
+		System.out.println();
+		System.out.println("hallow square with diagonal");	
+		int count_one=1;
+		for(int row_1 = 1; row_1 <=5 ;row_1++){
+			for(int col_1 =1; col_1 <=5; col_1++){
+				if(row_1==1 || row_1==5 || col_1==1 || col_1==5){
+					if(count_one<=9){
+						System.out.print("0"+count_one+" ");
+					}
+					else{
+						System.out.print(count_one+" ");
+					}
+				}
+				else{
+					System.out.print("   ");
+				}
+				count_one++;
+			}
+			System.out.println();
+			/*hallow square with diagonal
+			 01 02 03 04 05
+			 06          10
+			 11          15
+			 16          20
+			 21 22 23 24 25
+			*/
+		}
+		
 		}
 	}
