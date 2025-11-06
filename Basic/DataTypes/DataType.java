@@ -5,12 +5,12 @@ public class DataType {
         char studentGrade = 'A';    
         short studentRank = 1; // short type for small numbers
         byte studentScore = 100; // byte type for small numbers
-        int studentAge = 25;
-        float studentHeight = 5.6f;
+        int studentAge = 25; // int type for whole numbers
+        float studentHeight = 5.6f; // float type for decimal numbers
         long studentID = 123456789L; // long type for large numbers
-        double studentGPA = 7.99;
-        String studentName = "Elakkiya";    
-        boolean isEnrolled = true; // or false
+        double studentGPA = 7.99; // double type for precise decimal numbers
+        String studentName = "Elakkiya";    // String type for text(sequence of characeters)
+        boolean isEnrolled = true; // true or false
 
         
         System.out.println("Student Name: " + studentName);
